@@ -11,7 +11,7 @@ services:
                         args:
                                 - jmeterVersion=5.1.1
                 environment:
-                        - JMETER_TEST=default_test_plan.jmx
+                        - JMETER_TEST=InfluxGrafanaDemo.jmx
                 depends_on:
                         - influxdb
         grafana:
